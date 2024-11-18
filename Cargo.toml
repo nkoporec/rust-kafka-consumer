@@ -1,0 +1,10 @@
+[package]
+name = "kafka-consumer-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rdkafka = "0.36.2"
+tokio = { version = "1.41.1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde_json = "1.0.132"
